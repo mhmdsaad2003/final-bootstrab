@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Yuji+Mai&display=swap" rel="stylesheet">
+     <!-- google font  -->
+    <!-- wow css  -->
+    <link rel="stylesheet" href="css/wow.css" />
+    <!-- animat css  -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap css  -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- mdbootstrap css  -->
+     <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- style css  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <!-- Container wrapper -->
+    <div class="container-fluid">
+      <!-- Toggle button -->
+      <button
+        data-mdb-collapse-init
+        class="navbar-toggler"
+        type="button"
+        data-mdb-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fas fa-bars"></i>
+      </button>
+  
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <!-- Navbar brand -->
+        <a class="navbar-brand mt-2 mt-lg-0" href="#">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/logo/mdb-transaprent-noshadows.webp"
+            height="15"
+            alt="MDB Logo"
+            loading="lazy"
+          />
+        </a>
+        <!-- Left links -->
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+        </ul>
+        <!-- Left links -->
+      </div>
+      <!-- Collapsible wrapper -->
+  
+      <!-- Right elements -->
+      <div class="d-flex align-items-center">
+        <!-- Icon -->
+        <a class="text-reset me-3" href="#">
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+  
+        <!-- Notifications -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger">1</span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="dropdown">
+          <a
+            data-mdb-dropdown-init
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuAvatar"
+            role="button"
+            aria-expanded="false"
+          >
+            <img
+              src="https://mdbcdn.b-cdn.net/img/new/avatars/2.webp"
+              class="rounded-circle"
+              height="25"
+              alt="Black and White Portrait of a Man"
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuAvatar"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Right elements -->
+    </div>
+    <!-- Container wrapper -->
+  </nav>
+  <!-- Navbar -->
+ 
+  
+
+   
+  
+   
+  
+  <!--start header-->
+  <header>
+    
+    <div
+    id="intro-example"
+    class="p-5 text-center bg-image"
+    style="background-image: url('https://mdbcdn.b-cdn.net/img/new/slides/041.webp');"
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);">
+          <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-white">
+                  <h1 class="mb-3">Learn Bootstrap 5 with MDB</h1>
+                  <h5 class="mb-4">Best & free guide of responsive web design</h5>
+            <a
+              data-mdb-ripple-init
+              class="btn btn-outline-primary btn-lg m-2"
+              href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+              role="button"
+              rel="nofollow"
+              target="_blank"
+            >Start tutorial</a
+            >
+            <a
+              data-mdb-ripple-init
+              class="btn btn-outline-danger btn-lg m-2"
+              href="https://mdbootstrap.com/docs/standard/"
+              target="_blank"
+              role="button"
+            >Download MDB UI KIT</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- end header -->
+
+    <!-- start card  -->
+    <div class="container p-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/182.webp" class="img-fluid"/>
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="bg-image hover-overlay" data-mdb-ripple-init data-mdb-ripple-color="light">
+                      <img src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp" class="img-fluid"/>
+                      <a href="#!">
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#!" class="btn btn-primary" data-mdb-ripple-init>Button</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+   <!-- end card  -->
+    
+   <!-- start footer  -->
+   <footer class="text-center bg-body-tertiary">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          data-mdb-ripple-init
+          class="btn btn-link btn-floating btn-lg text-body m-1"
+          href="#!"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2020 Copyright:
+      <a class="text-body" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+   <!-- end footer  -->
+     
+    
+
+
+
+
+
+
+
+
+    <!-- wow js  -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- wow js  -->
+    <!-- fontawesome js -->
+    <script src="js/all.min.js"></script>
+    <!-- jquery js  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js  -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- mdb js  -->
+     <script src="js/mdb.umd.min.js"></script>
+  </body>
+</html>
